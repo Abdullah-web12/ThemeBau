@@ -1,0 +1,376 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav {
+    gap: 20px;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav li a {
+    color: aliceblue;
+}
+
+.purchase {
+    color: black;
+}
+
+.maini {
+    background-color: white;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    transform: translateY(0px);
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+@keyframes abdullah {
+    0% {
+        bottom: 5px;
+    }
+
+    50% {
+        /* bottom: 6px; */
+    }
+
+    75% {
+        bottom: 10px;
+    }
+}
+
+.maini:hover .dot {
+    position: relative;
+    animation: abdullah 0.5s ease-in-out infinite;
+}
+
+.background-colour {
+    background-color: black;
+    height: auto;
+
+}
+
+.round-circle {
+    background-color: rgb(67, 65, 65);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10rem;
+    margin-top: -20rem;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.theme-bau {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white;
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.top-to-img2 {
+    margin-top: -5rem;
+    margin-left: 4rem;
+}
+
+.jumbotron .container img {
+    height: 300px;
+    max-width: 60%;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h6 {
+    font-size: larger;
+}
+
+.purchase1 {
+    color: rgb(255, 255, 255);
+}
+
+.maini1 {
+    background-color: black;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    transform: translateY(0px);
+}
+
+.dot1 {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+@keyframes Qasim {
+    0% {
+        bottom: 5px;
+    }
+
+    50% {
+        /* bottom: 6px; */
+    }
+
+    75% {
+        bottom: 10px;
+    }
+}
+
+.maini1:hover .dot1 {
+    position: relative;
+    animation: abdullah 0.5s ease-in-out infinite;
+}
+.row-12{
+    margin-left: 160px;
+}
+.row-12 img{
+    height: 180px;
+    width: 180px;
+}
+.more{
+    font-size: larger;
+    text-align: center;
+}
+
+.flikity{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.carousel-cell {
+    width: 28%;
+    height: 300px;
+    margin-right: 10px;
+    background-image: url(../Media/5.jpg);
+    gap: 5px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+  
+.flickity img{
+height:300px ;
+width:  100%;
+}
+
+.container-corousel-practicle{
+    display: flex;
+}
+.project{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.text-project{
+    font-size: xx-large;
+    margin-left: 290px;
+    margin-top: 140px
+}
+.text-practical{
+    font-size: large;
+    margin-left: 250px;
+    margin-top: 160px
+}
+h4 {
+    font-size: 1.3rem;
+    color: black;
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.menu-style{
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+}
+.container-carousel-cell2{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.container-carousel-cell3{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.container-carousel-cell4{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.container-carousel-cell5{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.container-carousel-cell1{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.backgr{
+    display: flex;
+}
+.class img{
+    height: 500px;
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.loee1{
+    font-size: 2rem;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.loeee2{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.bootstrap1{
+    display: flex;
+}
+.bootstrap1 img{
+    height: 90px;
+    margin: 20px;
+}
+.bootstrap4{
+    font-size: 2rem;
+}
+.m{
+    font-size: larger;
+}
+.bootstrap5{
+    font-size: 1.6rem;
+}
+.star{
+    display: flex;
+}
+.star img{
+    height: 30px;
+}
+.star h1{
+    font-size: larger;
+    color: white;
+}
+.andmore h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:427px) {
+    .round-circle{
+        display: none; 
+    }
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .jumbotron .container img {
+        height: auto;
+        max-width: 60%;
+    }
+    .class img {
+        height: 250px;
+        width: 250px;
+        margin-top: 100px;
+        /* margin-left: 100px; */
+    }
+    .backgr {
+        display: block;
+    }
+    
+    .loee1 {
+        font-size: 2rem;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .class img {
+        height: 250px;
+        width: 250px;
+        margin-top: 60px;
+        /* margin-left: 100px; */
+    }
+    .container-corousel-practicle {
+        display: block;
+    }
+    .bootstrap1 img {
+        height: 90px;
+        margin: 10px;
+    }
+
+    .container-corousel-practicle {
+        display: none;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        margin-right: 40px;
+    }
+    }
+
+
